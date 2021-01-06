@@ -18,6 +18,10 @@
     @public
     NSString *_name;
     int _age;
+    float _height;
+    float _weight;
+    NSString *skinColor;
+    NSString *_country;
 }
 
 - (void)sayHi;

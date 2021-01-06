@@ -19,6 +19,14 @@
 		E79B8A9F25A4415A004A3808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E79B8A9E25A4415A004A3808 /* main.m */; };
 		E79B8AA525A441DE004A3808 /* God.m in Sources */ = {isa = PBXBuildFile; fileRef = E79B8AA425A441DE004A3808 /* God.m */; };
 		E79B8AA825A441ED004A3808 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E79B8AA725A441ED004A3808 /* Person.m */; };
+		E7BAAD4125A54CF0009E7F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAAD4025A54CF0009E7F7F /* main.m */; };
+		E7BAAD4D25A587BC009E7F7F /* YinXiang.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAAD4C25A587BC009E7F7F /* YinXiang.m */; };
+		E7BAAD5025A5890E009E7F7F /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAAD4F25A5890E009E7F7F /* Dog.m */; };
+		E7BAAD5325A5899D009E7F7F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAAD5225A5899D009E7F7F /* Person.m */; };
+		E7BAAD5625A58EBD009E7F7F /* QuanQuan.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAAD5525A58EBD009E7F7F /* QuanQuan.m */; };
+		E7BAAD5E25A59106009E7F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAAD5D25A59106009E7F7F /* main.m */; };
+		E7BAAD6425A59628009E7F7F /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAAD6325A59628009E7F7F /* Player.m */; };
+		E7BAAD6825A5A373009E7F7F /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAAD6725A5A373009E7F7F /* Robot.m */; };
 		E7CDF90825A2B4540052A0C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CDF90725A2B4540052A0C0 /* main.m */; };
 		E7CDF91525A2C4310052A0C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CDF91425A2C4310052A0C0 /* main.m */; };
 		E7F059B925A30C220029A2D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F059B825A30C220029A2D3 /* main.m */; };
@@ -62,6 +70,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		E79B8A9A25A4415A004A3808 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E7BAAD3C25A54CF0009E7F7F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E7BAAD5925A59106009E7F7F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -125,6 +151,23 @@
 		E79B8AA625A441ED004A3808 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		E79B8AA725A441ED004A3808 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		E79B8AA925A4429E004A3808 /* Gender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gender.h; sourceTree = "<group>"; };
+		E7BAAD3E25A54CF0009E7F7F /* 对象作为类的属性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "对象作为类的属性"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BAAD4025A54CF0009E7F7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7BAAD4B25A587BC009E7F7F /* YinXiang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YinXiang.h; sourceTree = "<group>"; };
+		E7BAAD4C25A587BC009E7F7F /* YinXiang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YinXiang.m; sourceTree = "<group>"; };
+		E7BAAD4E25A5890E009E7F7F /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		E7BAAD4F25A5890E009E7F7F /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		E7BAAD5125A5899D009E7F7F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E7BAAD5225A5899D009E7F7F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E7BAAD5425A58EBD009E7F7F /* QuanQuan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuanQuan.h; sourceTree = "<group>"; };
+		E7BAAD5525A58EBD009E7F7F /* QuanQuan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuanQuan.m; sourceTree = "<group>"; };
+		E7BAAD5B25A59106009E7F7F /* 猜拳游戏 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "猜拳游戏"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BAAD5D25A59106009E7F7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7BAAD6225A59628009E7F7F /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		E7BAAD6325A59628009E7F7F /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		E7BAAD6525A596E1009E7F7F /* FistType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FistType.h; sourceTree = "<group>"; };
+		E7BAAD6625A5A373009E7F7F /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		E7BAAD6725A5A373009E7F7F /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
 		E7CDF90425A2B4540052A0C0 /* 类与对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类与对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CDF90725A2B4540052A0C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7CDF91225A2C4310052A0C0 /* 对象在内存中的存储 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "对象在内存中的存储"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +206,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E79B8A9925A4415A004A3808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BAAD3B25A54CF0009E7F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BAAD5825A59106009E7F7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,6 +305,35 @@
 			path = "上帝与人的故事";
 			sourceTree = "<group>";
 		};
+		E7BAAD3F25A54CF0009E7F7F /* 对象作为类的属性 */ = {
+			isa = PBXGroup;
+			children = (
+				E7BAAD4025A54CF0009E7F7F /* main.m */,
+				E7BAAD4B25A587BC009E7F7F /* YinXiang.h */,
+				E7BAAD4C25A587BC009E7F7F /* YinXiang.m */,
+				E7BAAD4E25A5890E009E7F7F /* Dog.h */,
+				E7BAAD4F25A5890E009E7F7F /* Dog.m */,
+				E7BAAD5125A5899D009E7F7F /* Person.h */,
+				E7BAAD5225A5899D009E7F7F /* Person.m */,
+				E7BAAD5425A58EBD009E7F7F /* QuanQuan.h */,
+				E7BAAD5525A58EBD009E7F7F /* QuanQuan.m */,
+			);
+			path = "对象作为类的属性";
+			sourceTree = "<group>";
+		};
+		E7BAAD5C25A59106009E7F7F /* 猜拳游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				E7BAAD5D25A59106009E7F7F /* main.m */,
+				E7BAAD6225A59628009E7F7F /* Player.h */,
+				E7BAAD6325A59628009E7F7F /* Player.m */,
+				E7BAAD6525A596E1009E7F7F /* FistType.h */,
+				E7BAAD6625A5A373009E7F7F /* Robot.h */,
+				E7BAAD6725A5A373009E7F7F /* Robot.m */,
+			);
+			path = "猜拳游戏";
+			sourceTree = "<group>";
+		};
 		E7CDF8FB25A2B4540052A0C0 = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +345,8 @@
 				E79B8A7825A415E6004A3808 /* 多文件开发 */,
 				E79B8A8C25A43A66004A3808 /* 对象与方法 */,
 				E79B8A9D25A4415A004A3808 /* 上帝与人的故事 */,
+				E7BAAD3F25A54CF0009E7F7F /* 对象作为类的属性 */,
+				E7BAAD5C25A59106009E7F7F /* 猜拳游戏 */,
 				E7CDF90525A2B4540052A0C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -274,6 +362,8 @@
 				E79B8A7725A415E6004A3808 /* 多文件开发 */,
 				E79B8A8B25A43A66004A3808 /* 对象与方法 */,
 				E79B8A9C25A4415A004A3808 /* 上帝与人的故事 */,
+				E7BAAD3E25A54CF0009E7F7F /* 对象作为类的属性 */,
+				E7BAAD5B25A59106009E7F7F /* 猜拳游戏 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -390,6 +480,40 @@
 			productReference = E79B8A9C25A4415A004A3808 /* 上帝与人的故事 */;
 			productType = "com.apple.product-type.tool";
 		};
+		E7BAAD3D25A54CF0009E7F7F /* 对象作为类的属性 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BAAD4425A54CF0009E7F7F /* Build configuration list for PBXNativeTarget "对象作为类的属性" */;
+			buildPhases = (
+				E7BAAD3A25A54CF0009E7F7F /* Sources */,
+				E7BAAD3B25A54CF0009E7F7F /* Frameworks */,
+				E7BAAD3C25A54CF0009E7F7F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "对象作为类的属性";
+			productName = "对象作为类的属性";
+			productReference = E7BAAD3E25A54CF0009E7F7F /* 对象作为类的属性 */;
+			productType = "com.apple.product-type.tool";
+		};
+		E7BAAD5A25A59106009E7F7F /* 猜拳游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BAAD6125A59106009E7F7F /* Build configuration list for PBXNativeTarget "猜拳游戏" */;
+			buildPhases = (
+				E7BAAD5725A59106009E7F7F /* Sources */,
+				E7BAAD5825A59106009E7F7F /* Frameworks */,
+				E7BAAD5925A59106009E7F7F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "猜拳游戏";
+			productName = "猜拳游戏";
+			productReference = E7BAAD5B25A59106009E7F7F /* 猜拳游戏 */;
+			productType = "com.apple.product-type.tool";
+		};
 		E7CDF90325A2B4540052A0C0 /* 类与对象 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7CDF90B25A2B4540052A0C0 /* Build configuration list for PBXNativeTarget "类与对象" */;
@@ -465,6 +589,12 @@
 					E79B8A9B25A4415A004A3808 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					E7BAAD3D25A54CF0009E7F7F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E7BAAD5A25A59106009E7F7F = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					E7CDF90325A2B4540052A0C0 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -496,6 +626,8 @@
 				E79B8A7625A415E6004A3808 /* 多文件开发 */,
 				E79B8A8A25A43A66004A3808 /* 对象与方法 */,
 				E79B8A9B25A4415A004A3808 /* 上帝与人的故事 */,
+				E7BAAD3D25A54CF0009E7F7F /* 对象作为类的属性 */,
+				E7BAAD5A25A59106009E7F7F /* 猜拳游戏 */,
 			);
 		};
 /* End PBXProject section */
@@ -545,6 +677,28 @@
 				E79B8AA825A441ED004A3808 /* Person.m in Sources */,
 				E79B8AA525A441DE004A3808 /* God.m in Sources */,
 				E79B8A9F25A4415A004A3808 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BAAD3A25A54CF0009E7F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BAAD4D25A587BC009E7F7F /* YinXiang.m in Sources */,
+				E7BAAD5325A5899D009E7F7F /* Person.m in Sources */,
+				E7BAAD5625A58EBD009E7F7F /* QuanQuan.m in Sources */,
+				E7BAAD5025A5890E009E7F7F /* Dog.m in Sources */,
+				E7BAAD4125A54CF0009E7F7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BAAD5725A59106009E7F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BAAD6825A5A373009E7F7F /* Robot.m in Sources */,
+				E7BAAD6425A59628009E7F7F /* Player.m in Sources */,
+				E7BAAD5E25A59106009E7F7F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,6 +811,42 @@
 			name = Debug;
 		};
 		E79B8AA225A4415A004A3808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KK5CJ4TLL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7BAAD4225A54CF0009E7F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KK5CJ4TLL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7BAAD4325A54CF0009E7F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KK5CJ4TLL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7BAAD5F25A59106009E7F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KK5CJ4TLL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7BAAD6025A59106009E7F7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -874,6 +1064,24 @@
 			buildConfigurations = (
 				E79B8AA125A4415A004A3808 /* Debug */,
 				E79B8AA225A4415A004A3808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BAAD4425A54CF0009E7F7F /* Build configuration list for PBXNativeTarget "对象作为类的属性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BAAD4225A54CF0009E7F7F /* Debug */,
+				E7BAAD4325A54CF0009E7F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BAAD6125A59106009E7F7F /* Build configuration list for PBXNativeTarget "猜拳游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BAAD5F25A59106009E7F7F /* Debug */,
+				E7BAAD6025A59106009E7F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
